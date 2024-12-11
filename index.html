@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emilio Murithi - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section with Profile Picture -->
+  <section id="hero">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG7xbkmrEAHZmrTOLpSv2z7fsgxnX5oB-ezsX27l_XDJx-HQx-NminK54&s=10" alt="Emilio Murithi Profile Picture" class="profile-pic">
+    <h1>Hi, I'm Emilio Murithi</h1>
+    <p>A software engineering student with a passion for developing innovative solutions and creating digital experiences that matter.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm currently pursuing a Bachelor’s degree in Software Engineering and have experience working with both frontend and backend technologies. My projects range from simple static websites to more complex, data-driven applications. I’m always eager to learn new skills and take on new challenges that push me to grow as a developer.</p>
+  </section>
+
+  <!-- Projects Section with Images -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PF8xs4HjutUqSCp3oN1cQ_Y5K2Ze1Inhow&s" alt="Project 1 Screenshot" class="project-img">
+      <h3>Interactive Quiz Game</h3>
+      <p>An educational quiz game with a prize-winning mechanic. Users answer questions from various subjects to win prizes and must share results to claim their rewards. <em>Technologies used: HTML, CSS, JavaScript.</em></p>
+      <a href="https://github.com/emiliomurithi/quiz-game" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3g8Ufm_AUhYtjcLWjZKzUimenZ3r2FSwKpIqh4eSzg&s " alt="Project 2 Screenshot" class="project-img">
+      <h3>Health and Fitness Website</h3>
+      <p>A web platform focused on nutrition and fitness, providing users with tips on healthy eating and exercise routines. <em>Technologies used: HTML, CSS, JavaScript.</em></p>
+      <a href="https://github.com/emiliomurithi/fitness-website" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJROhTelFefH3cGWc0ajhc1ciB0Jk3Etfubwqh46Dohw&s " alt="Project 3 Screenshot" class="project-img">
+      <h3>Forex Analysis and Signal Bot</h3>
+      <p>A Forex trading analysis platform that delivers real-time signals and analysis, aiming to assist new traders in making informed decisions. <em>Technologies used: HTML, CSS, JavaScript, APIs.</em></p>
+      <a href="https://github.com/emiliomurithi/forex-bot" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skill">
+    <label>Frontend Development</label>
+    <div class="skill-bar">
+      <div class="skill-level frontend" style="width: 90%;">90%</div>
+    </div>
+  </div>
+  <div class="skill">
+    <label>Backend Development</label>
+    <div class="skill-bar">
+      <div class="skill-level backend" style="width: 75%;">75%</div>
+    </div>
+  </div>
+  <div class="skill">
+    <label>JavaScript</label>
+    <div class="skill-bar">
+      <div class="skill-level javascript" style="width: 85%;">85%</div>
+    </div>
+  </div>
+  <div class="skill">
+    <label>UI/UX Design</label>
+    <div class="skill-bar">
+      <div class="skill-level design" style="width: 70%;">70%</div>
+    </div>
+  </div>
+</section>
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Bachelor's in Software Engineering</strong> - Kirinyaga University of Science and Technology </p>
+    <p>Expected Graduation: 2027</p>
+    <p>Relevant Coursework: Data Structures, Algorithms, Web Development, Database Systems, Software Engineering, Machine Learning Basics.</p>
+  </section>
+
+  <!-- Testimonials Section with Carousel -->
+<!-- Testimonials Section with Carousel -->
+<section id="testimonials">
+  <h2>Testimonials</h2>
+  <div class="carousel">
+    <div class="carousel-inner">
+      <div class="testimonial active">
+        <p>"Emilio’s problem-solving skills and creativity make him a valuable addition to any project team. His ability to learn quickly is impressive!"</p>
+        <span>- Sarah K., Project Manager at ABC Company</span>
+      </div>
+      <div class="testimonial">
+        <p>"Emilio has consistently impressed us with his dedication and ability to tackle challenges head-on. His work on our health app was outstanding."</p>
+        <span>- John D., CEO of HealthTech Solutions</span>
+      </div>
+      <div class="testimonial">
+        <p>"Working with Emilio was an incredible experience. His insights and skills greatly contributed to the project’s success!"</p>
+        <span>- Anna L., Software Engineer at TechCorp</span>
+      </div>
+    </div>
+    <button class="prev">Previous</button>
+    <button class="next">Next</button>
+  </div>
+</section>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you're interested in working together or have any questions, feel free to reach out. I’d love to connect!</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Emilio Murithi. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/emiliomurithimwaniki" target="_blank">LinkedIn</a>
+      <a href="https://github.com/emiliomurithi" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Carousel -->
+<script>
+  let currentIndex = 0;
+  const testimonials = document.querySelectorAll(".testimonial");
+  const totalTestimonials = testimonials.length;
+
+  function updateTestimonials() {
+    // Hide all testimonials
+    testimonials.forEach((testimonial, index) => {
+      testimonial.classList.remove("active");
+      testimonial.style.display = "none";
+    });
+    // Show the current testimonial
+    testimonials[currentIndex].classList.add("active");
+    testimonials[currentIndex].style.display = "block";
+  }
+
+  document.querySelector(".next").addEventListener("click", () => {
+    currentIndex = (currentIndex + 1) % totalTestimonials; // Move to the next testimonial
+    updateTestimonials();
+  });
+
+  document.querySelector(".prev").addEventListener("click", () => {
+    currentIndex = (currentIndex - 1 + totalTestimonials) % totalTestimonials; // Move to the previous testimonial
+    updateTestimonials();
+  });
+
+  // Initialize the first testimonial
+  updateTestimonials();
+</script>
+</body>
+</html>
